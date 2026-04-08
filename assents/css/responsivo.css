@@ -1,0 +1,335 @@
+@media screen and (min-width: 350px) and (max-width: 649px) {
+    /*DIVs CENTRAIS*/
+    .menu, .containerCamisas, .planos, .explicacao, .sobre, .sobreIdem, .rodape {
+        width: 100%;
+    }
+
+    /*MENU INICIAL*/
+    .menu{
+        justify-content: space-between;
+        grid-template: auto / auto auto;
+    }
+    .logo{
+        height: 35px;
+    }
+    .links, #black{
+        display: none;
+    }
+    .menuHamburguer{
+        display: block;
+    }
+    .tituloHeader{
+        & h1, h2{
+            font-size: 65px;
+        }
+    }
+    /*TITULO INICIAL*/
+    .tituloHeader {
+        margin-top: 80px;
+    }
+
+    /*PRODUTOS*/
+    .containerCamisas{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5px;
+    }
+    .camisas {
+        & img {
+            width: 300px;
+        }
+    }
+    .descricao {
+        text-align: center;
+        align-items: center;
+        & h1 {
+            font-size: 40px;
+    
+        }
+        & p {
+            font-size: 18px;
+        }
+        & span{
+            font-size: 14px;
+        }
+    }
+
+    .planos h1, .explicacao h1, .sobre h1{
+        font-size: 25px;
+    }
+
+    /*PLANOS*/
+    .planos{
+        text-align: center;
+        & h2{
+            font-size: 20px;
+        }
+    }
+    .plano{
+        width: 360px;
+        padding: 10px;
+    }
+    .planoInterno{
+        gap: 10px;
+        & h3{
+            font-size: 100px;
+        }
+        & h4, h5{
+            font-size: 45px;
+            line-height: 40px;
+        }
+    }
+    .valor{
+        font-size: 18px;
+    }
+    .btn-black{
+        font-size: 17px;
+    }
+
+    /*EXPLICAÇÃO*/
+    .explicacao{
+        text-align: center;
+        padding: 5px;
+        & ul{
+            flex-direction: column;
+            align-items: center;
+        }
+        & .metodo{
+            width: 360px;
+            padding: 10px;
+        }
+        & li {
+            font-size: 16px;
+        }
+        & p{
+            font-size: 14px;
+        }
+    }
+    .perguntas{
+        height: 530px;
+        margin-top: 15px;
+
+        & h2{
+            font-size: 30px;
+            font-weight: 500;
+        }
+    
+        details{
+            padding: 10px 15px;
+        }
+          
+        details summary {
+            font-weight: bold;
+            list-style: none;
+        }
+          
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+          
+        details p {
+            margin-top: 10px;
+            color: #555;
+        }
+    }
+
+
+    /*SOBRE*/
+    .sobreIdem{
+        padding: 5px;
+        & p{
+            width: 100%;
+            font-size: 16px;
+        }
+        & img{
+            padding: 5px;
+            height: 40px;
+        }
+        & .logoSobre{
+            padding: 5px;
+        }
+    }
+
+    /*RODAPE*/
+    .rodape{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navegacao{
+        gap: 5px;
+        & h1{
+            font-size: 16px;
+        }
+        & p{
+            font-size: 14px;
+        }
+    }
+    .rede{
+        padding: 0px;
+    }
+    #navnone{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 999px) {
+    /*DIVs CENTRAIS*/
+    .menu, .containerCamisas, .planos, .explicacao, .sobre, .sobreIdem, .rodape {
+        width: 630px;
+    }
+
+    /*MENU INICIAL*/
+    .logo{
+        height: 30px;
+    }
+    .links{
+        & a{
+            font-size: 14px;
+        }
+    }
+    .tituloHeader{
+        & h1, h2{
+            font-size: 100px;
+        }
+    }
+    /*TITULO INICIAL*/
+    .tituloHeader {
+        margin-top: 80px;
+    }
+
+    /*PRODUTOS*/
+    .camisas {
+        & img {
+            width: 300px;
+        }
+    }
+    .descricao {
+        & h1 {
+            font-size: 40px;
+        }
+        & p {
+            font-size: 18px;
+        }
+        & span{
+            font-size: 14px;
+        }
+    }
+
+    /*EXPLICAÇÃO*/
+    .explicacao{
+        & .metodo{
+            width: 200px;
+            padding: 10px;
+        }
+        & li {
+            font-size: 16px;
+        }
+        & p{
+            font-size: 14px;
+        }
+    }
+    .perguntas{
+        height: 450px;
+        margin-top: 15px;
+
+        & h2{
+            font-size: 30px;
+            font-weight: 500;
+        }
+    
+        details{
+            padding: 10px 15px;
+        }
+          
+        details summary {
+            font-weight: bold;
+            list-style: none;
+        }
+          
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+          
+        details p {
+            margin-top: 10px;
+            color: #555;
+        }
+    }
+
+
+    /*SOBRE*/
+    .sobreIdem{
+        & p{
+            width: 100%;
+            font-size: 18px;
+        }
+        & img{
+            background-color: #181818;
+            padding: 15px;
+            height: 60px;
+        }
+    }
+
+    /*RODAPE*/
+    .rodape{
+        justify-content: space-around;
+    }
+    .navegacao{
+        gap: 5px;
+        & h1{
+            font-size: 16px;
+        }
+        & p{
+            font-size: 14px;
+        }
+    }
+    .rede{
+        padding: 0px;
+    }
+    #navnone{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1499px) {
+
+    /*DIVs CENTRAIS*/
+    .menu,
+    .containerCamisas,
+    .planos,
+    .explicacao,
+    .sobre,
+    .sobreIdem,
+    .rodape {
+        width: 950px;
+    }
+
+    /*TITULO INICIAL*/
+    .tituloHeader {
+        margin-top: 80px;
+    }
+
+    /*PRODUTOS*/
+    .camisas {
+        & img {
+            width: 400px;
+        }
+    }
+
+    .descricao {
+        & h1 {
+            font-size: 60px;
+        }
+
+        & p {
+            font-size: 20px;
+        }
+    }
+
+    /*SOBRE*/
+    .sobreIdem {
+        & p {
+            width: 100%;
+        }
+    }
+}
