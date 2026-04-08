@@ -2,3 +2,5 @@ O projeto Idem é simples e objetivo, não possui cores que favorecem a visão d
 
 Designer: Eric Fernandes
 Desenvolvedor: Ian barbosa
+
+Versão: 1.0.
